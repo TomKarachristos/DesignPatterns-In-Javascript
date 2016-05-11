@@ -1,7 +1,5 @@
 // The Adapter Pattern translates an interface for an object or class into an interface compatible with a specific system
 // Adapters basically allow objects or classes to function together which normally couldn't due to their incompatible interface
-// The adapter translates calls to its interface into calls to the original interface and the code required to achieve this is usually quite minimal.
-
 
 var clientObject = {
   string1: 'foo',

@@ -1,8 +1,5 @@
 // bridge decouple an abstraction from its implementation so that the two can vary independently.
 
-// input devices, implements and extends the interface defined by Abstraction
-// Abstraction: is not used in JavaScript cause the dynamic type.
-
 // here is a clean implementation for understanding the use. 
 var Class1 = function(a, b, c) {
   this.a = a;
@@ -24,7 +21,7 @@ var BridgeClass = function(a, b, c, d) {
 
 // One can argue that this bridge was introduced solely for convenience, effectively making
 // it a facade. But unlike a facade, it is being used so that Class1 and Class2 can vary independently
-// from BridgeClass. 
+// from BridgeClass.
 
 // from http://www.dofactory.com/javascript/bridge-design-pattern
 

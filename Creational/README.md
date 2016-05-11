@@ -18,6 +18,6 @@ Module pattern | is a design pattern used to implement the concept of software m
 + Factory Methods are usually called within Template methods.
 + Builder focuses on constructing a complex object step by step. Abstract Factory emphasizes a family of product objects (either simple or complex). Builder returns the product as a final step, but as far as the Abstract Factory is concerned, the product gets returned immediately.
 
-#### reference:
+#### Reference:
 + Wiki
 + https://sourcemaking.com/design_patterns

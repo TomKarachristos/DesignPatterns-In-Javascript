@@ -1,4 +1,3 @@
-// This is a more close to the decorate pattern in other programming languages.
 // from Pro JavaScript Design Pattern book
 
 // You understand that you have a Problem you can solve with decorate when you see this:
@@ -18,7 +17,7 @@ var  MacbookWith4GBRam = function(){},
      MacbookWith8GBRamAndParallelsAndCaseAndInsurance = function(){},
      MacbookWith4GBRamAndParallelsAndCaseAndInsurance = function(){};
 
-// solution
+// solution!
  
 // A Macbook Pro might thus be represented as follows:
 var MacbookPro = function(){

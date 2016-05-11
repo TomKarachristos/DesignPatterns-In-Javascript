@@ -1,7 +1,7 @@
 // Here is a nice implimentation of Bridge
 // https://github.com/jquery-boilerplate/jquery-patterns/blob/master/patterns/jquery.prototypal-inheritance.plugin-boilerplate.js
-// https://alexsexton.com/blog/2010/02/using-inheritance-patterns-to-organize-large-jquery-applications/
 // NOT A RUNABLE FILE
+
 /*!
  * jQuery prototypal inheritance plugin boilerplate
  * Author: Alex Sexton, Scott Gonzalez

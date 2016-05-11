@@ -7,5 +7,5 @@
 #### Some notes:
 + Used from many libraries in javascript, and realy is one way to go if you use pure javascript for develop.
 
-#### nice articles:
+#### Nice articles:
 + https://github.com/emehrkay/Pool/blob/master/README.md

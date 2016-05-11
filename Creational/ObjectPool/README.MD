@@ -6,5 +6,5 @@
 #### Some notes:
 + It be using by almost all games.
 
-#### nice articles:
+#### Nice articles:
 + https://github.com/emehrkay/Pool/blob/master/README.md

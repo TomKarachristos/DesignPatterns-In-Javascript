@@ -1,14 +1,6 @@
-// The Composite Pattern describes a group of objects that can be treated in the same way a single instance of an object may be.
-// Usuay a composite use a tree like data structor for the implementation
-// A composite should have a HAS-A relationship with its children, not an IS-A relationship
-// Composite can be very helpfull in javascirpt
+// The Composite Pattern describes a group of objects that can be treated in the same way
+// a single instance of an object may be.
 
-/*
-	You should only use the composite pattern when you have both of the following:
-	• Groups of objects, in some sort of hierarchy (the exact structure of which could be
-	unknown at development time)
-	• An operation you want to perform on those objects, or on some subset of them
-*/
 
 // from here http://www.dofactory.com/javascript/composite-design-pattern
 var Node = function (name) {

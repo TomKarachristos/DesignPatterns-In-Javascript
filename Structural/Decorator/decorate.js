@@ -2,9 +2,6 @@
 // that allows behavior to be added to an individual object, either statically or dynamically, 
 // without affecting the behavior of other objects from the same class
 
-//In another programming languages the implimentation of this have very more complicate code
-
-
 // A vehicle constructor
 function Vehicle( vehicleType ){
     // here we add a random vehicleType, so we decorate 
@@ -37,7 +34,7 @@ console.log( truck );
 var secondInstance = new Vehicle( "car" );
 console.log( secondInstance );
  
- console.log("-------");
+console.log("-------");
 // a second example demostrate the power of decorate
 // The constructor to decorate
 function MacBook() {

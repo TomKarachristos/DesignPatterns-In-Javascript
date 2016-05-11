@@ -1,3 +1,4 @@
+// NOT A RUNNABLE EXAMPLE.
 var decoratorApp = decoratorApp || {};
  
 // define the objects we're going to use

@@ -12,8 +12,6 @@ Flyweight pattern | a large quantity of objects share a common properties object
 Proxy pattern | a class functioning as an interface to another thing
 
 #### Rules Of Thumb:
-+ Many guys use a adapter pattern when they use a third-library and full it with unit testing, so when library updates if test unit fails than just change the adapter.
-+ An adapter converts one interface to another; it doesn’t remove any abilities or otherwise simplify the interface. Adapters are required for clients that expect an API that isn’t available.
 + A facade is not used to allow interaction with clients that require a particular interface; it is used to provide a simpler interface.
 + Adapter makes things work after they're designed; Bridge makes them work before they are.
 + Adapter provides a different interface to its subject. Proxy provides the same interface. Decorator provides an enhanced interface.

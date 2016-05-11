@@ -21,7 +21,7 @@ var myModule = (function ( jQ, _ ) {
     myPublicVar: privateCounter,
     increaseAndShowCounter: publicMethod
   };
- 
+
 // clear way to access global objects, and gives alias
 })( "jQuery", "_" );
  
