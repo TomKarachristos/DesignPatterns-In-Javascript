@@ -1,7 +1,7 @@
-// this example is not runnable yet
-
 // A simple factory is an object which encapsulates the creation of another object, 
-// shielding that code from the rest of your application
+// shielding that code from the rest of your application.
+
+// A simple factory
 var UserFactory = function() {};
 var Admin = function() {console.log("make a admin");};
 var Customer = function() {console.log("make a Customer");};
@@ -102,14 +102,3 @@ var yourNewBike = californiaCruisers.sellBicycle('The Speedster');
 yourNewBike.ride()
 var yourNewBike = californiaCruisers.sellBicycle('ComfortCruiser');
 yourNewBike.ride()
-
-var BicycleShop = function() {};
-BicycleShop.prototype = {
-  sellBicycle: function(model) {
-    var bicycle = BicycleFactory.createBicycle(model);
-    bicycle.assemble();
-    bicycle.wash();
-    return bicycle;
-  }
-};
-
