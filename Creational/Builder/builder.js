@@ -1,7 +1,7 @@
 // Separate the construction of a complex object from its representation 
 // so that the same construction process can create different representations.
 
-//here a complete example from http://www.dofactory.com/javascript/builder-design-pattern
+// here a complete example from http://www.dofactory.com/javascript/builder-design-pattern
 function Shop() {
   // constructs products by using the Builder's multistep interface
   this.construct = function(builder,doors) {
