@@ -16,3 +16,7 @@ Object pool pattern | avoid expensive acquisition and release of resources by re
 + Builder often builds a Composite.
 + Builder focuses on constructing a complex object step by step. Abstract Factory emphasizes a family of product objects (either simple or complex). Builder returns the product as a final step, but as far as the Abstract Factory is concerned, the product gets returned immediately.
 + Factory Methods are usually called within Template methods.
+
+#### reference:
++ Wiki
++ https://sourcemaking.com/design_patterns
