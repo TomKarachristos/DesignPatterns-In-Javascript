@@ -31,6 +31,7 @@ if ( match[1] ) {
   return jQuery.merge( this, selector );
 
 // here is how you use it
+// you put differents thing and you get the roght one
 $( '<div class="foo">bar</div>' );
 $( '<p id="test">foo <em>bar</em></p>').appendTo("body");
 var newParagraph = $( "<p />" ).text( "Hello world" );
