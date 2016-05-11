@@ -9,13 +9,14 @@ Factory method pattern | which allows a class to defer instantiation to subclass
 Prototype pattern | which specifies the kind of object to create using a prototypical instance, and creates new objects by cloning this prototype. |
 Singleton pattern | which ensures that a class only has one instance, and provides a global point of access to it. |
 Object pool pattern | avoid expensive acquisition and release of resources by recycling objects that are no longer in use |
+Module pattern | is a design pattern used to implement the concept of software modules, defined by modular programming, in a programming language with incomplete direct support for the concept.
 
 #### Rules Of Thump:
 + Sometimes creational patterns are competitors: there are cases when either Prototype or Abstract Factory could be used profitably.
 + Abstract Factory can be used as an alternative to Facade to hide platform-specific classes.
 + Builder often builds a Composite.
-+ Builder focuses on constructing a complex object step by step. Abstract Factory emphasizes a family of product objects (either simple or complex). Builder returns the product as a final step, but as far as the Abstract Factory is concerned, the product gets returned immediately.
 + Factory Methods are usually called within Template methods.
++ Builder focuses on constructing a complex object step by step. Abstract Factory emphasizes a family of product objects (either simple or complex). Builder returns the product as a final step, but as far as the Abstract Factory is concerned, the product gets returned immediately.
 
 #### reference:
 + Wiki

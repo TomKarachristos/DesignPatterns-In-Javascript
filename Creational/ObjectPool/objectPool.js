@@ -6,7 +6,7 @@
 
 // Object Pools are usually implemented as Singletons.
 
-// example from here http://jsfiddle.net/XkTPJ/
+// A full example here http://jsfiddle.net/XkTPJ/
 (function(){
   function Pool(objects){
       this.queue = [];

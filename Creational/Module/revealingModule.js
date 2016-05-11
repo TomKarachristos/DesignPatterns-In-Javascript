@@ -1,3 +1,7 @@
+// The Revealing Module pattern came about as Christian Heilmann’s was frustrated with the fact that 
+// he had to repeat the name of the main object when we wanted to call one public method
+// from another or access public variables.
+
 // module export
 var myModule = (function ( jQ, _ ) {
   

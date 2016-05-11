@@ -5,8 +5,6 @@ var BicycleShop = function() {};
 BicycleShop.prototype = {
   sellBicycle: function(model) {
     var bicycle = this.createBicycle(model);
-    // bicycle.assemble();
-    // bicycle.wash();
     return bicycle;
   },
   createBicycle: function(model) {
