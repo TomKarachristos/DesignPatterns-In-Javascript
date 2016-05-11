@@ -1,4 +1,3 @@
-// nice article http://www.html5rocks.com/en/tutorials/speed/static-mem-pools/
 // Object pooling is the process of retaining a set of unused objects which share a type.
 // When you need a new object for your code, rather than allocating a new one from the system Memory Heap,
 // you instead recycle one of the unused objects from the pool.
