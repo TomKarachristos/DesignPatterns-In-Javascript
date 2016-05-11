@@ -1,8 +1,8 @@
 ##### Singleton ensures that a class only has one instance, and provides a global point of access to it.
 
 #### Files:
-singleton.js: Two examples of singleton. The second is lazy loading singleton.
-brancing.js: Branching is a technique that allows you to encapsulate browser differences into dynamic methods that get set at run-time.
++singleton.js: Two examples of singleton. The second is lazy loading singleton.
++brancing.js: Branching is a technique that allows you to encapsulate browser differences into dynamic methods that get set at run-time.
 
 #### Some notes:
 + Singletons can increase tight coupling!

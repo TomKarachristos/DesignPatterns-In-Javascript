@@ -11,7 +11,7 @@ Singleton pattern | which ensures that a class only has one instance, and provid
 Object pool pattern | avoid expensive acquisition and release of resources by recycling objects that are no longer in use |
 Module pattern | is a design pattern used to implement the concept of software modules, defined by modular programming, in a programming language with incomplete direct support for the concept.
 
-#### Rules Of Thump:
+#### Rules Of Thumb:
 + Sometimes creational patterns are competitors: there are cases when either Prototype or Abstract Factory could be used profitably.
 + Abstract Factory can be used as an alternative to Facade to hide platform-specific classes.
 + Builder often builds a Composite.
