@@ -1,8 +1,4 @@
-// alternative to singleton:
-// https://programmers.stackexchange.com/questions/40373/so-singletons-are-bad-then-what/40610#40610
-// http://www.ibm.com/developerworks/webservices/library/co-single/index.html
-
-//Singletons can increase tight coupling!
+// Singletons can increase tight coupling!
 // module pattern is singleton too!
 
 // it create it when app start
@@ -18,7 +14,8 @@ var myNamespace = { // a very is simple example
 
 console.log(myNamespace.variable1);
 
-//  lazy loading
+// Second example
+// lazy loading
 var Singleton = (function() {
   var uniqueInstance; // Private attribute that holds the single instance.
 
@@ -51,7 +48,3 @@ var Singleton = (function() {
 singletonInstance = Singleton.getInstance();
 singletonInstance.publicMethod()
 
-// A virtual proxy
-// can be used instead of a lazy loading singleton when you want a little more control over how
-// the class gets instantiated. A true object factory can be used instead of a branching singleton
-// (although that factory may also be a singleton).
