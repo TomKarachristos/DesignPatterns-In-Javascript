@@ -1,4 +1,4 @@
-##### Adapter pattern 'adapts' one interface for a class into one that a client expects
+##### Adapter pattern: 'adapts' one interface for a class into one that a client expects
 
 #### Files:
 + adapter.js: A vary simple example.
