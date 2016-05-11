@@ -1,4 +1,4 @@
-#### Basic Info 
+#### Basic Info:
 + Creational design patterns are design patterns that deal with object creation mechanisms, trying to create objects in a manner suitable to the situation. The basic form of object creation could result in design problems or in added complexity to the design. Creational design patterns solve this problem by somehow controlling this object creation.
 
 name | explanation | 
@@ -10,7 +10,7 @@ Prototype pattern | which specifies the kind of object to create using a prototy
 Singleton pattern | which ensures that a class only has one instance, and provides a global point of access to it. |
 Object pool pattern | avoid expensive acquisition and release of resources by recycling objects that are no longer in use |
 
-#### Rules Of Thump
+#### Rules Of Thump:
 + Sometimes creational patterns are competitors: there are cases when either Prototype or Abstract Factory could be used profitably.
 + Abstract Factory can be used as an alternative to Facade to hide platform-specific classes.
 + Builder often builds a Composite.
