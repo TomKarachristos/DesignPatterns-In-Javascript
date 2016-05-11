@@ -1,3 +1,4 @@
+//NOT A RUNNABLE FILE
 /*!
  * jQuery UI Widget factory "bridge" plugin boilerplate
  * Author: @erichynds
