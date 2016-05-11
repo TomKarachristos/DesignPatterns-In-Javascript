@@ -6,6 +6,8 @@ It was difficult for me to understand all the difference between each pattern. S
 
 I use javascript not by random, but because it simplify many design patterns in a way the structure and intents is reveal more easy. I have used code from many places, and have modified it, so to be more simple and have added many comments too. 
 
+Most files can be run with the command: node filename, if you have install nodejs.
+
 Here is the most value resources I use:
 + [Head First Design Patterns By Eric Freeman, Elisabeth Robson, Bert Bates, Kathy Sierra](http://shop.oreilly.com/product/9780596007126.do)
 + [Pro JavaScript Design Patterns By Dustin Diaz , Ross Harmes](http://www.apress.com/9781590599082)
