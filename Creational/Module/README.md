@@ -6,6 +6,7 @@
 
 #### Some notes:
 + Used from many libraries in javascript, and realy is one way to go if you use pure javascript for develop.
++ module many often will be a singleton.
 
 #### Nice articles:
 + https://www.christianheilmann.com/2007/08/22/again-with-the-module-pattern-reveal-something-to-the-world/
