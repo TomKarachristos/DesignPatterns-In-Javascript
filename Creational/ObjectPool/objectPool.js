@@ -3,8 +3,6 @@
 // you instead recycle one of the unused objects from the pool.
 // Once the external code is done with the object, rather than releasing it to main memory, it is returned to the pool
 
-// Object Pools are usually implemented as Singletons.
-
 // A full example here http://jsfiddle.net/XkTPJ/
 (function(){
   function Pool(objects){
