@@ -1,6 +1,6 @@
 # Design patterns in javascripts
 
-Here you will find many examples for each pattern in javascript ES5, with primary goal the understanding of design patterns and the clean code. If you have a experience with design pattern and you want to sharpen your knowledge, here is the place.
+Here you will find many examples for each pattern in javascript ES5, with primary goal the understanding of design patterns and the clean code. If you have a experience with design patterns and you want to sharpen your knowledge, here is the place.
 
 It was difficult for me to understand all the difference between each pattern. So here I organize all the pattern with many examples that give you(me) a better understanding. I first make some simple examples, later some more advance and add real examples codes from famous libraries like the jquery for full understanding. I add some theory and rules of thumb too.
 
