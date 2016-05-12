@@ -8,7 +8,7 @@ I use javascript not by random, but because it simplify many design patterns in 
 
 Most files can be run with the command: node filename, if you have install nodejs.
 
-Here is the most value resources I use:
+Here is the most value resources I use, buy this books are worth it:
 + [Head First Design Patterns By Eric Freeman, Elisabeth Robson, Bert Bates, Kathy Sierra](http://shop.oreilly.com/product/9780596007126.do)
 + [Pro JavaScript Design Patterns By Dustin Diaz , Ross Harmes](http://www.apress.com/9781590599082)
 + [Learning JavaScript Design Patterns, A JavaScript and jQuery Developer's Guide, By Addy Osmani](http://shop.oreilly.com/product/0636920025832.do)
