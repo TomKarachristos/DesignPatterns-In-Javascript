@@ -1,10 +1,12 @@
 ##### Mediator pattern: Provides a unified interface to a set of interfaces in a subsystem.
 
 #### Files:
-chainOfRepsonsibilitty.js: a skeleton of the pattern, and two real examples with different ways to use the pattern.
++ mediator.js: A vary nice example with a chat using mediator.
++ mediatorVsObserver: Here you can see the differents from observer.
 
 #### Some notes:
-+ Some applications are so complex that they require advanced configuration. You could offer a basic scripting language which allows the end-user to manipulate your application through simple instructions. The Interpreter pattern solves this particular problem – that of creating a simple scripting language.
++ A real-world analogy could be a typical airport traffic control system. A tower (Mediator) handles what planes can take off and land because all communications (notifications being listened out for or broadcast) are done from the planes to the control tower, rather than from plane-to-plane. A centralized controller is key to the success of this system and that's really the role a Mediator plays in software design.
++ Introduces a single point of failure
 
 #### Nice articles:
-+ https://www.joezimjs.com/javascript/javascript-design-patterns-chain-of-responsibility/
++ http://jonathancreamer.com/javascript-patterns-mediator-vs-observer/

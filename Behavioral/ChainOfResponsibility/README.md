@@ -1,7 +1,7 @@
 ##### Chain of responsibility pattern: Command objects are handled or passed on to other objects by logic-containing processing objects
 
 #### Files:
-chainOfRepsonsibilitty.js: a skeleton of the pattern, and two real examples with different ways to use the pattern.
++ chainOfRepsonsibilitty.js: a skeleton of the pattern, and two real examples with different ways to use the pattern.
 
 #### Some notes:
 + This pattern is used internally in JavaScript to handle event capturing and

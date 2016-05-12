@@ -1,7 +1,7 @@
 ##### Command pattern: Command objects encapsulate an action and its parameterss
 
 #### Files:
-chainOfRepsonsibilitty.js: a skeleton of the pattern, and two real examples with different ways to use the pattern.
++ command.js: two very nice examples.
 
 #### Some notes:
 + it enables us to decouple objects invoking the action from the objects which implement them, giving us a greater degree of overall flexibility in swapping out concrete classes (objects).
