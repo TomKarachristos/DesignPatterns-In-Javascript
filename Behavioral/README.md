@@ -19,7 +19,6 @@
 + Memento is often used in conjunction with Iterator. An Iterator can use a Memento to capture the state of an iteration. The Iterator stores the Memento internally.
 + State is like Strategy except in its intent.
 + Flyweight explains when and how State objects can be shared.
-
 + Strategy lets you change the guts of an object. Decorator lets you change the skin.
 + Strategy is to algorithm. as Builder is to creation.
 + Strategy has 2 different implementations, the first is similar to State. The difference is in binding times (Strategy is a bind-once pattern, whereas State is more dynamic).
