@@ -1,8 +1,8 @@
 # Design patterns in javascripts
 
-Here you will find many examples for each pattern in javascript ES5, with primary goal the understanding of design patterns and the clean code.
+Here you will find many examples for each pattern in javascript ES5, with primary goal the understanding of design patterns and the clean code. If you have a little experience with design pattern and you want to sharpen your knowledge, here is the place.
 
-It was difficult for me to understand all the difference between each pattern. So here I organize all the pattern with many examples that give you(me) a better understanding. I first make some simple examples, later some more advance and add real examples codes from famous libraries like the jquery. I add some theory and rules of thumb too.
+It was difficult for me to understand all the difference between each pattern. So here I organize all the pattern with many examples that give you(me) a better understanding. I first make some simple examples, later some more advance and add real examples codes from famous libraries like the jquery for full understanding. I add some theory and rules of thumb too.
 
 I use javascript not by random, but because it simplify many design patterns in a way the structure and intents is reveal more easy. I have used code from many places, and have modified it, so to be more simple and have added many comments too. 
 
