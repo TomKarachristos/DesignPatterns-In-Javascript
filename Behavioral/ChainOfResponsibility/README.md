@@ -10,6 +10,7 @@ bubbling.
 + The sender is the object that makes the request. The receivers are the objects in the chain that receive this request and handle it or pass it on
 + Each receiver only knows about one other object, its successor in the chain.
 + When you see in code(especially inside the Jquery source code)"return this" most luckly you see a Chain of repsonsibility pattern.
++ Chain of responsibility can use Command to represent requests as objects.
 
 #### Nice articles:
 + https://www.joezimjs.com/javascript/javascript-design-patterns-chain-of-responsibility/
