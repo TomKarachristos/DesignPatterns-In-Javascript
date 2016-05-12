@@ -3,12 +3,10 @@ var Shipping = function() {
 };
  
 Shipping.prototype = {
-  
   // allows clients to change Strategy
   setStrategy: function(company) {
     this.company = company;
   },
-  
   // supports interface to allow clients to request Strategy calculations
   calculate: function(package) {
     return this.company.calculate(package);
