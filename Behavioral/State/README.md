@@ -1,0 +1,1 @@
++ State objects are often Singletons.

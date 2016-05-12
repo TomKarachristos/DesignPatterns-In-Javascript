@@ -1,0 +1,1 @@
++ A Command that must be copied before being placed on a history list acts as a Prototype.
