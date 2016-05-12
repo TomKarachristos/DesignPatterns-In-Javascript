@@ -1,5 +1,5 @@
 // the decorator pattern (also known as Wrapper) is a design pattern
-// that allows behavior to be added to an individual object, either statically or dynamically, 
+// that allows behavior to be added to an individual object, either statically or dynamically,
 // without affecting the behavior of other objects from the same class
 
 // A vehicle constructor

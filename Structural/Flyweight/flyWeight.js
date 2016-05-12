@@ -1,6 +1,5 @@
-// A simple solution
 // Car class, un-optimized. Without the flyweight.
-// if you need many car the application will start to be heavy
+// if you need many cars the application will start to be heavy
 var Car = function(make, model, year, owner, tag, renewDate) {
   this.make = make;
   this.model = model;
@@ -57,7 +56,7 @@ Car.prototype = {
   }
 };
 // Because the object’s data is split up, you
-// must now use a factory to instantiate it.
+// must now use a factory(or a builder) to instantiate it.
 /* CarFactory singleton. */
 var CarFactory = (function() {
   var createdCars = {};

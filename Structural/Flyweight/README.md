@@ -1,8 +1,8 @@
-##### Flyweight pattern a large quantity of objects share a common properties object to save space
+##### Flyweight pattern: a large quantity of objects share a common properties object to save space.
 
 #### Files:
-+ flyweight.js: Here you can see a code that dont use flyweight and the way will be if will be using.
-+ flyweight2.js: Another example.
++ flyweight.js: Here you can see a code that don't use flyweight and the way will be if will be using.
++ flyweight2.js: A more advance example.
 + jquerySingleCode.js: A use of flyweight inside the jquery code.
 
 #### Some notes:

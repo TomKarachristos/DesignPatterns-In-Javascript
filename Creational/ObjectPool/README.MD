@@ -1,7 +1,7 @@
 ##### Object Pool avoid expensive acquisition and release of resources by recycling objects that are no longer in use
 
 #### Files:
-+ objectPool.js: One nice simple implementation i found.
++ objectPool.js: One nice simple implementation I found.
 
 #### Some notes:
 + It be using by almost all games.

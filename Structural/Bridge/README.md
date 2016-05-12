@@ -1,4 +1,4 @@
-##### Bridge pattern decouple an abstraction from its implementation so that the two can vary independently
+##### Bridge pattern: decouple an abstraction from its implementation so that the two can vary independently.
 
 #### Files:
 + bridge.js: Two exampples, one very simple and one a little more complex.

@@ -29,7 +29,7 @@ $( "button" ).on( "click", function () {
 });
 
 
-// here is the code
+// here is the code from th jquery
 // Bind a function to a context, optionally partially applying any
 // arguments.
 proxy: function( fn, context ) {
