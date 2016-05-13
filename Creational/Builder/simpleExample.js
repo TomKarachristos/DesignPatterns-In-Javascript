@@ -1,4 +1,4 @@
-// here a complete example from http://www.dofactory.com/javascript/builder-design-pattern
+// from http://www.dofactory.com/javascript/builder-design-pattern
 function Shop() {
   // constructs products by using the Builder's multistep interface
   this.construct = function(builder,doors) {
@@ -8,6 +8,9 @@ function Shop() {
   }
 }
  
+// Implements the multistep Builder interface
+// maintains the product through the assembly process
+// offers the ability to retrieve the newly created product
 function CarBuilder() {
   this.car = null;
   this.step1 = function() {
