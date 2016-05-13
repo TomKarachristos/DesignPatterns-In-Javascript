@@ -7,7 +7,6 @@ function b(y) {
 }
 
 function ab(x, y) {
-  // in bridge pattern we create here two class(a,b)
   // in facade we simplify the use by call the two
   // by just calling the ab
   a(x);
