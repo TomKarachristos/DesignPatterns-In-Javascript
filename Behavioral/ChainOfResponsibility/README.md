@@ -1,9 +1,11 @@
-##### Chain of responsibility pattern: Command objects are handled or passed on to other objects by logic-containing processing objects
+##### Chain of responsibility pattern are command objects are handled or passed on to other objects by logic-containing processing objects
 
-#### Files:
-+ chainOfRepsonsibilitty.js: a skeleton of the pattern, and two real examples with different ways to use the pattern.
+Each processing object contains logic that defines the types of command objects that it can handle; the rest are passed to the next processing object in the chain. A mechanism also exists for adding new processing objects to the end of this chain.
 
-#### Some notes:
+In a variation of the standard chain-of-responsibility model, some handlers may act as dispatchers, capable of sending commands out in a variety of directions, forming a tree of responsibility. In some cases, this can occur recursively, with processing objects calling higher-up processing objects with commands that attempt to solve some smaller part of the problem; in this case recursion continues until the command is processed, or the entire tree has been explored. An XML interpreter might work in this manner.
+This pattern promotes the idea of loose coupling.
+
+#### Rules Of Thumb:
 + This pattern is used internally in JavaScript to handle event capturing and
 bubbling. 
 + Allows you to decouple the sender and the receiver of a request. This is accomplished by implementing a chain of objects that implicitly handles the request. Each object in the chain can handle the request or pass it on to the next object. 
@@ -14,5 +16,3 @@ bubbling.
 
 #### Nice articles:
 + https://www.joezimjs.com/javascript/javascript-design-patterns-chain-of-responsibility/
-
-//TODO promises chain

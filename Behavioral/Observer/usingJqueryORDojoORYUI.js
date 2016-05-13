@@ -1,6 +1,6 @@
 // NOT A RUNABLE
 
-// Publish
+// Publish!!!
  
 // jQuery: $(obj).trigger("channel", [arg1, arg2, arg3]);
 $( el ).trigger( "/login", [{username:"test", userData:"test"}] );
@@ -12,7 +12,7 @@ dojo.publish( "/login", [{username:"test", userData:"test"}] );
 el.publish( "/login", {username:"test", userData:"test"} );
  
  
-// Subscribe
+// Subscribe!!!
  
 // jQuery: $(obj).on( "channel", [data], fn );
 $( el ).on( "/login", function( event ){...} );
@@ -24,7 +24,7 @@ var handle = dojo.subscribe( "/login", function(data){..} );
 el.on( "/login", function( data ){...} );
  
  
-// Unsubscribe
+// Unsubscribe!!!
  
 // jQuery: $(obj).off( "channel" );
 $( el ).off( "/login" );

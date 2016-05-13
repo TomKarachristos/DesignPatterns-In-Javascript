@@ -1,11 +1,12 @@
 // from Pro JavaScript Design Pattern book
 
-// You understand that you have a Problem you can solve with decorate when you see this:
 var Macbook = function(){
         //...
 };
  
 // You need a subclass for every different element?
+// You understand that you have a Problem you can solve with decorate 
+// when you see this:
 var  MacbookWith4GBRam = function(){},
      MacbookWith8GBRam = function(){},
      MacbookWith4GBRamAndEngraving = function(){},
@@ -17,7 +18,7 @@ var  MacbookWith4GBRam = function(){},
      MacbookWith8GBRamAndParallelsAndCaseAndInsurance = function(){},
      MacbookWith4GBRamAndParallelsAndCaseAndInsurance = function(){};
 
-// solution!
+// The solution is the decorate pattern
  
 // A Macbook Pro might thus be represented as follows:
 var MacbookPro = function(){

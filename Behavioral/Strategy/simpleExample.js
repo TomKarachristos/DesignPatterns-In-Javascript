@@ -36,7 +36,6 @@ var Fedex = function() {
 };
  
 var package = { from: "76712", to: "10012", weigth: "lkg" };
-
 // the 3 strategies
 var ups = new UPS();
 var usps = new USPS();

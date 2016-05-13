@@ -8,7 +8,7 @@ var iterator = (function() {
     next: function() {
       var element;
       if (!this.hasNext()) {
-          return null;
+        return null;
       }
       element = data[index];
       index += 3;

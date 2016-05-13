@@ -1,10 +1,12 @@
-##### Facade pattern: create a simplified interface of an existing interface to ease usage for common tasks.
+##### Facade pattern create a simplified interface of an existing interface to ease usage for common tasks.
 
-#### Files:
-+ facade.js: Two different examples of facade. A simple and a little more complicated.
-+ jquery.js: A sample of facade pattern inside from jquery code.
+A facade is an object that provides a simplified interface to a larger body of code, such as a class library. A facade can:
++ make a software library easier to use, understand and test, since the facade has convenient methods for common tasks;
++ make the library more readable, for the same reason;
++ reduce dependencies of outside code on the inner workings of a library, since most code uses the facade, thus allowing more flexibility in developing the system;
++ wrap a poorly designed collection of APIs with a single well-designed API.
 
-#### Some notes:
+#### Rules Of Thumb:
 + Facade make worse the performance.
 + The facade pattern does two things: it simplifies the interface of a class, and it decouples that
 class from the client code that uses it.

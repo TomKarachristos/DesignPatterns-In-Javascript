@@ -1,3 +1,4 @@
+// NOT A RUNABLE EXAMPLE
 /*
   Lets say you want to change from one library to another and you don't want to
   changing the code base. The solution is the adapter design pattern,

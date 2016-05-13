@@ -1,5 +1,5 @@
 // NOT A RUNNABLE EXAMPLE
-
+// How we are using it.
 $.each( ["john","dave","rick","julian"], function( index, value ) {
   console.log( index + ': "' + value);
 });
@@ -19,7 +19,6 @@ each: function( object, callback, args ) {
   var name, i = 0,
     length = object.length,
     isObj = length === undefined || jQuery.isFunction( object );
- 
   if ( args ) {
     if ( isObj ) {
       for ( name in object ) {

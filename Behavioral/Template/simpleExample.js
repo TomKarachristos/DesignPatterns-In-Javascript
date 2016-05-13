@@ -1,5 +1,4 @@
 // A very close to a real example
-
 var datastore = {
   // offers an interface for clients to invoke the templateMethod
   process: function() {

@@ -1,11 +1,11 @@
-##### Observer pattern: aka Publish/Subscribe or Event Listener. Objects register to observe an event that may be raised by another object
+##### Observer pattern aka Publish/Subscribe or Event Listener,is a software design pattern in which an object, called the subject, maintains a list of its dependents, called observers, and notifies them automatically of any state changes, usually by calling one of their methods. It is mainly used to implement distributed event handling systems. 
 
-#### Files:
-+ mediatorVsObserver.js: 
-+ usingJqueryORDojoORYUI.js: Many libraries have a way to use the observer pattern, see how to do it using jquery or dojo or YUI.
+The observer pattern can cause memory leaks, known as the lapsed listener problem, because in basic implementation it requires both explicit registration and explicit deregistration, as in the dispose pattern, because the subject holds strong references to the observers, keeping them alive. This can be prevented by the subject holding weak references to the observers.
 
-#### Some notes:
-+ The Observer is a design pattern where an object (known as a subject) maintains a list of objects depending on it (observers), automatically notifying them of any changes to state.
+#### Rules Of Thumb:
++ The Observer pattern is also a key part in the familiar model–view–controller (MVC) architectural pattern.
++ The observer pattern is implemented in numerous programming libraries and systems, including almost all GUI toolkits.
++ You can use a ready implement from many libraries. See an exampl in usignJquery usingJqueryORDojoORYUI.js file
 
 #### Nice articles:
 + http://stackoverflow.com/questions/12590091/jquery-observer-pattern

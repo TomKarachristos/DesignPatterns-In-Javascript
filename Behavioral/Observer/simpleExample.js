@@ -1,5 +1,4 @@
 // from: http://www.dofactory.com/javascript/observer-design-pattern
-
 function Click() {
   // Imaintains list of observers. Any number of Observer objects may observe a Subject
   this.handlers = [];  // observers

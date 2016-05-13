@@ -1,6 +1,5 @@
 // NOT A RUNABLE FILE
 
-// here what we see from jquery
 // inside the jquery code they use a adapter design pattern
 // that way is be compatible with all browsers
 $( ".container" ).css( { opacity: .5 } );

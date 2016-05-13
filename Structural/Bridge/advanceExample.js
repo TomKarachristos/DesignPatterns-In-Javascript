@@ -1,32 +1,8 @@
-// bridge decouple an abstraction from its implementation so that the two can vary independently.
-
-// here is a clean implementation for understanding the use. 
-var Class1 = function(a, b, c) {
-  this.a = a;
-  this.b = b;
-  this.c = c;
-}
-
-var Class2 = function(d) {
-  this.d = d;
-};
-
-// Its look like a adapter but there is no real client that is expecting any data.
-// It’s simply helping to take in a larger set of data, sending it off to the
-// responsible parties.
-var BridgeClass = function(a, b, c, d) {
-  this.one = new Class1(a, b, c);
-  this.two = new Class2(d);
-};
-
-// One can argue that this bridge was introduced solely for convenience, effectively making
-// it a facade. But unlike a facade, it is being used so that Class1 and Class2 can vary independently
-// from BridgeClass.
-
 // from http://www.dofactory.com/javascript/bridge-design-pattern
 
 // input and output devices can vary independently (without changes to the code)
 // the devices are loosely coupled by two levels of abstraction.
+// implements and extends the interface defined by Abstraction
 var Gestures = function (output) {
   this.output = output;
 
@@ -67,6 +43,7 @@ var audio = new Audio();
 var hand = new Gestures(screen);
 var mouse = new Mouse(audio);
 
+// calls into Abstraction to request an operation
 hand.tap();
 hand.swipe();
 hand.pinch();

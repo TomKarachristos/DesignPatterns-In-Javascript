@@ -1,6 +1,5 @@
 var Employee = function (name, salary, vacation) {
   var self = this;
-  
   // defines an accept method that accepts visitor objects
   this.accept = function (visitor) {
     // in the accept method the visitor's visit method is invoked 

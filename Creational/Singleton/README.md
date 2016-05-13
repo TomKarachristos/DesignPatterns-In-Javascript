@@ -8,7 +8,7 @@ Singletons are often preferred to global variables because:
 
 There are some who are critical of the singleton pattern and consider it to be an anti-pattern in that it is frequently used in scenarios where it is not beneficial, introduces unnecessary restrictions in situations where a sole instance of a class is not actually required, and introduces global state into an application
 
-#### Some notes:
+#### Rules Of Thumb:
 + Singletons can increase tight coupling!
 + The Abstract Factory, Builder, and Prototype patterns can use Singletons in their implementation.
 + Facade objects are often singletons because only one Facade object is required.

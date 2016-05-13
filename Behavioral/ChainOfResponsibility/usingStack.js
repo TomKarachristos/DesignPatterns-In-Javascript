@@ -1,40 +1,4 @@
-// from http://www.dofactory.com/javascript/chain-of-responsibility-design-pattern
 
-// skeleton 
-var chaining = {
-  do: function(){
-    // code here...
-    return this;
-  },
-  stuff: function(){
-    // and here...
-    return this;
-  }
-}
-chaining.do().stuff()
-
-// A real example
-// initiates the request to a chain of handler objects
-var Request = function(amount) {
-  this.amount = amount;
-  console.log("Requested: $" + amount + "\n");
-}
- 
-// defines an interface for handling the requests
-// implements the successor link (returning 'this')
-Request.prototype = {
-  get: function(bill) {
-    var count = Math.floor(this.amount / bill);
-    this.amount -= count * bill;
-    console.log("Dispense " + count + " $" + bill + " bills");
-    return this; // this just do the magic!
-  }
-}
-
-var request = new Request(378);
-request.get(100).get(50).get(20).get(10).get(5).get(1);
-
-console.log("---------");
 // A different implemintation using stack data structure
 // from https://www.joezimjs.com/javascript/javascript-design-patterns-chain-of-responsibility/
 var MoneyStack = function(billSize) {

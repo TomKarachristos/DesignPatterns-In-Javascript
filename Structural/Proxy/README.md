@@ -1,10 +1,8 @@
-##### Proxy pattern: a class functioning as an interface to another thing.
+##### Proxy pattern a class functioning as an interface to another thing.
 
-#### Files:
-+ proxy.js: Two examples, one very simple.
-+ jquery.js: You can see how to use $.proxy and the code that impliment this function from the jquery code.
+A proxy, in its most general form, is a class functioning as an interface to something else. The proxy could interface to anything: a network connection, a large object in memory, a file, or some other resource that is expensive or impossible to duplicate. In short, a proxy is a wrapper or agent object that is being called by the client to access the real serving object behind the scenes. Use of the proxy can simply be forwarding to the real object, or can provide additional logic. In the proxy extra functionality can be provided, for example caching when operations on the real object are resource intensive, or checking preconditions before operations on the real object are invoked. For the client, usage of a proxy object is similar to using the real object, because both implement the same interface.
 
-#### Some notes:
+#### Rules Of Thumb:
 + A proxy object does not add or modify methods to another object (as a decorator would) or simplify the interface of another object (as a facade would do). It implements the exact same interface as the real subject does and passes on method invocations made on it to the real subject.
 + A remote proxy is used to access an object in a different environment. With Java, this could mean an object in a different virtual machine, or an object on a computer on the other side of the world. The remote object is usually persistent; it is accessible at any time from any other environment. This type of proxy is difficult to translate to JavaScript. You can use remote proxy for cache reasons in javascript.
 + A protection proxy is also hard to translate into JavaScript. In other languages, it is typically used to control access to certain methods based on who the client is. Let’s say you add a few methods to the PublicLibrary class. These would be methods for adding books to and removing books from the catalog. In Java you could use a protection proxy to restrict access to these methods to clients of a particular type, say Librarian. No other type of client would be able to invoke these methods. In JavaScript, you can’t determine the type of the client that made a particular method call, which makes this particular pattern impossible to implement.

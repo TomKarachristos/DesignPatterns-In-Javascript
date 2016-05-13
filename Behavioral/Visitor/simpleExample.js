@@ -1,7 +1,6 @@
 // NOT A RUNNABLE
 // RUNNABLE HERE: http://jsfiddle.net/codingepiphany/vnF7E/
 // from http://www.codingepiphany.com/2013/04/13/back-to-basics-visitor-pattern-explanation-with-js-example/
-
 var houseWithProblems = {
     plumbing: "leaky faucet",
     garageDoor: "broken motor",
@@ -52,7 +51,6 @@ var visitorGardener = {
 
 findAndSolve
     houseWithProblems.accept(visitorHomeInspector);
-
     houseWithProblems.accept(visitorGardener);
     houseWithProblems.accept(visitorElectrician);
     houseWithProblems.accept(visitorPlumber);

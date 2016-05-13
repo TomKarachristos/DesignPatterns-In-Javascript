@@ -1,7 +1,7 @@
 // from http://www.dofactory.com/javascript/mediator-design-pattern
-// A nice chat design pattern
 
-//objects that are being mediated by the Mediator
+// A nice chat design pattern
+// objects that are being mediated by the Mediator
 var Participant = function(name) {
     this.name = name;
     this.chatroom = null; // each instance maintains a reference to the Mediator
@@ -16,11 +16,9 @@ Participant.prototype = {
     }
 };
  
-
 var Chatroom = function() {
   // maintains references to participants objects
   var participants = {};
-
   // defines an interface for communicating with participants objects
   return {
     register: function(participant) {

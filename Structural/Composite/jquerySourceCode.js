@@ -1,5 +1,5 @@
-// In jquery is very easy to doa  change in a collections of elements
-
+// NOT A RUNABLE FILE
+// In jquery is very easy to do a change in a collections of elements
 // Single elements
 $( "#singleItem" ).addClass( "active" );
 $( "#container" ).addClass( "active" );

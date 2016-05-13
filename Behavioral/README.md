@@ -36,9 +36,7 @@ Interpreter pattern| Implement a specialized computer language to rapidly solve 
 Iterator pattern| Iterators are used to access the elements of an aggregate object sequentially without exposing its underlying representation
 Mediator pattern| Provides a unified interface to a set of interfaces in a subsystem
 Memento pattern| Provides the ability to restore an object to its previous state (rollback)
-Null Object pattern| Designed to act as a default value of an object
 Observer pattern| aka Publish/Subscribe or Event Listener. Objects register to observe an event that may be raised by another object
-Single-serving visitor pattern| Optimise the implementation of a visitor that is allocated, used only once, and then deleted
 State pattern| A clean way for an object to partially change its type at runtime
 Strategy pattern| Algorithms can be selected on the fly
 Template method pattern| Describes the program skeleton of a program
