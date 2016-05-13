@@ -1,6 +1,5 @@
 // here we use facade pattern with module pattern
 var module = (function() {
- 
   var _private = {
       i: 5,
       get: function() {
@@ -16,9 +15,7 @@ var module = (function() {
           console.log( "jumping" );
       }
   };
-
   return {
-
     facade: function( args ) {
         _private.set(args.val);
         _private.get();
