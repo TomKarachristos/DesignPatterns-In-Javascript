@@ -29,7 +29,6 @@ var myModule = (function (my) {
   return my;
 }(myModule || {}));// {} if the files load asynchronously
 
-
 myModule.publicMethod();
 myModule.anotherMethod();
 

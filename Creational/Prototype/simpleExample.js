@@ -1,6 +1,4 @@
-// Creates objects based on a template of an existing object through cloning. 
 // In javascript this is vary simple, by just using the prototype..
-
 var blueprint = function bluePrintObject() {
   this.method = function someFunction() {
     console.log("blueprint method");
@@ -23,13 +21,15 @@ var copyMe = {
   }
 };
  
-// The Object.create() method creates a new object with the specified prototype object and properties.
+// A second way to do it!
+// The Object.create() method creates a new object with the specified prototype object
+// and properties.
 var tom = Object.create( copyMe );
 
 console.log(tom);
 console.log(tom.prototype);
 // Now we can see that one is a prototype of the other
-console.log( tom.name );
+console.log(tom.name);
 
 //a prototype like inheritance example, from essentialjsdesignpatterns book
 var vehicle = {

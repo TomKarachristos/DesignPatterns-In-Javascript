@@ -1,6 +1,3 @@
-// Branching is a technique that allows you to encapsulate browser differences into dynamic
-// methods that get set at run-time
-
 // Branching Singleton template
 MyNamespace.Singleton = (function() {
   var objectA = {

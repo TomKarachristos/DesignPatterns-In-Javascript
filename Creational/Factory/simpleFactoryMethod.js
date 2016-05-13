@@ -1,8 +1,7 @@
-//The true factory pattern differs from the simple factory in that instead of using another class
-//or object to create the bicycles, you will use a subclass
 
 var BicycleShop = function() {};
 BicycleShop.prototype = {
+  // declares an interface for products
   sellBicycle: function(model) {
     var bicycle = this.createBicycle(model);
     return bicycle;

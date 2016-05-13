@@ -1,21 +1,3 @@
-// Singletons can increase tight coupling!
-// module pattern is singleton too!
-
-// it create it when app start
-var myNamespace = { // a very is simple example
-  // only public 
-  variable1: "1",
-  variable2: 2,
-  method1: function() {
-  },
-  method2: function() {
-  }
-};
-
-console.log(myNamespace.variable1);
-
-// Second example
-// lazy loading
 var Singleton = (function() {
   var uniqueInstance; // Private attribute that holds the single instance.
 
@@ -47,4 +29,3 @@ var Singleton = (function() {
 
 singletonInstance = Singleton.getInstance();
 singletonInstance.publicMethod()
-

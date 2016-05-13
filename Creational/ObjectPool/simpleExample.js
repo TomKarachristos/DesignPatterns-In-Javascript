@@ -1,8 +1,3 @@
-// Object pooling is the process of retaining a set of unused objects which share a type.
-// When you need a new object for your code, rather than allocating a new one from the system Memory Heap,
-// you instead recycle one of the unused objects from the pool.
-// Once the external code is done with the object, rather than releasing it to main memory, it is returned to the pool
-
 // A full example here http://jsfiddle.net/XkTPJ/
 (function(){
   function Pool(objects){

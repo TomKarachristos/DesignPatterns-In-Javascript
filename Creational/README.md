@@ -5,6 +5,7 @@
 + With the Factory pattern, you produce implementations (Apple, Banana, Cherry, etc.) of a particular interface -- say, IFruit. With the Abstract Factory pattern, you produce implementations of a particular Factory interface -- e.g., IFruitFactory. Each of those knows how to create different kinds of fruit.([source](http://stackoverflow.com/questions/1001767/what-is-the-basic-difference-between-the-factory-and-abstract-factory-patterns))
 + Sometimes creational patterns are competitors: there are cases when either Prototype or Abstract Factory could be used profitably.
 + Abstract Factory can be used as an alternative to Facade to hide platform-specific classes.
++ Abstract Factory classes are often implemented with Factory Methods, but they can also be implemented using Prototype.
 + The Builder is only needed when an object cannot be produced in one step.
 + Builder often builds a Composite.
 + Factory Methods are usually called within Template methods.
