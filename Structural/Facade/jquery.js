@@ -15,6 +15,7 @@ function addEvent(el, type, fn) {
   }
 }
 
+// from here : https://github.com/jquery/codeorigin.jquery.com/blob/ddf4a94a8ae4991c1c464cfe9e38839425f7b313/cdn/jquery-1.2.1.js#L1990
 function bindReady(){
 	if ( readyBound ) return;
 	readyBound = true;
