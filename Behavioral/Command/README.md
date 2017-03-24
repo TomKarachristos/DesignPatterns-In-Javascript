@@ -6,5 +6,6 @@ Four terms always associated with the command pattern are command, receiver, inv
 + Command can use Memento to maintain the state required for an undo operation.
 + it enables us to decouple objects invoking the action from the objects which implement them, giving us a greater degree of overall flexibility in swapping out concrete classes (objects).
 + A Command that must be copied before being placed on a history list acts as a Prototype.
++ Chain of Responsibility can use Command to represent requests as objects.
 
 #### Nice articles:
