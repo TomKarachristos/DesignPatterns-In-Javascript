@@ -9,4 +9,12 @@
 + Disadvantages: Requires creating a separate ConcreteBuilder for each different type of Product.
 + It can be used for objects that contain flat data (html code, SQL query, X.509 certificate...), that is to say, data that can't be easily edited. This type of data cannot be edited step by step and must be edited at once. The best way to construct such an object is to use a builder class
 
+### example to recognize
+
+PersonBuilder builder = new PersonBuilder();
+Person bob = builder.firstName("Bob")
+                    .lastName("Builder")
+                    .age(33)
+                    .description("Man I love building stuff!")
+                    .build();
 #### Nice articles:
